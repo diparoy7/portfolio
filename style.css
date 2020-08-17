@@ -1,0 +1,127 @@
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom:20px;
+    
+}
+body{
+    margin:0px;
+    padding:0px;
+
+}
+
+h1 span{ 
+    color:orange;
+}
+ .header{
+     width:40%;
+    float:left;
+    margin-left: 5%;
+}
+
+.header img{
+    width:100%;
+}
+p{
+    font-size: 20px;
+}
+.anchor{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato );
+    color:#fff;
+    font-size:20px;
+    font-weight:30;
+    text-align: center;
+    padding:10px 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top:30px;
+}
+.width{
+    width:40%;
+   float:left;
+   margin-left: 5%;
+   height:300px;
+   margin-bottom: 50px;
+}
+ .width h2{
+     font-size:30px;
+     font-weight:600;
+
+ }
+.width h2 span{
+    color:orange;
+}
+
+ .Ex div{
+    box-shadow: 5px 5px 40px lightgray;
+    
+    padding:10px 10px;
+    
+}
+
+ul li{
+    display:inline-block;
+    background:lightgray;
+
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    float:right;
+    padding:5px 15px;
+    font-size:20px;
+    font-weight:30;
+    border:1px solid black;
+    transition: 0.5s ;
+}
+
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top:20px;
+}
+
+ul li a:hover{
+    background-color:#fff;
+    color:tomato;
+}
+div .menubar{
+    background:black;
+}
+
+#developer{
+    border-left:7px solid;
+    border-image:linear-gradient( 180deg,red ,lightsalmon);
+    border-image-slice: 1;
+}
+
+#wordpress{
+     border-left:7px solid;
+    border-image:linear-gradient( 180deg,blue ,cyan);
+    border-image-slice: 1;
+}
+
+.main{
+    background-image: url(../image/exp-bg.png);
+    background-repeat:no-repeat;
+    height:500px;
+}
+
+footer{
+    margin-top:400px;
+    text-align:center;
+    
+    background-color:black;
+    color:white;
+    height:30px;
+    padding:5px 5px;
+    font-size:20px;
+    font-weight:20;
+    
+}
+
+.Ex h1{
+    margin-top:100px;
+}
